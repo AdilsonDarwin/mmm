@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css files-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--javascript files-->
+    <script src="js/main.js"></script>
+    <title>Perfil - Portal do Aluno</title>
+</head>
+<body>
+    <div class="global-container">
+        <!-- ===================================== header-container ===================================== -->
+        <header class="container header-container transition">
+            <!--nav-search-container-->
+            <nav class="center full-screen header-center flex-row space-between align-items">
+                <!--nav-1-->
+                <div class="menu-left-icon-container hidden">
+                    <img src="assets/icons/menu-left.svg" alt="">
+                </div>
+                <!--nav-2-->
+                <a href="index.html">
+                    <h1 class="logo-piaget title--1">Universidade<span>Piaget</span></h1>
+                </a>
+                <!--nav-3-->
+                <ul class="header-nav-list flex-row align-items gap-16">
+                    <li class="flex-row row-reverse align-items gap-8 input-container"><img class="icon icon-color-gray cursor-pointer" src="assets/icons/search.svg" alt=""><input class="input-style" type="search"></li>
+                    <li><img id="header-notification" class="icon icon-color-gray cursor-pointer" src="assets/icons/notification.svg" alt=""></li>
+                    <li><a href="#"><img class="icon icon-color-gray cursor-pointer" src="assets/icons/help.svg" alt=""></a></li>
+                    <li><img id="header-message"  class="icon icon-color-gray cursor-pointer" src="assets/icons/message.svg" alt=""></li>
+                    <li><img id="header-profile" class="header-profile-picture cursor-pointer" src="assets/images/aluno.png" alt=""></li>
+                </ul>
+                <!--nav-4-->
+                <div class="menu-search-container hidden">
+                    <ul class="flex-row align-items gap-16">
+                        <li><img id="header-notification-2" class="header-notification icon icon-color-gray cursor-pointer" src="assets/icons/notification.svg"></li>
+                        <li><img id="header-message-2" class="icon icon-color-gray cursor-pointer" src="assets/icons/message.svg"></li>
+                        <li><img id="header-search-2" class="icon icon-color-gray cursor-pointer" src="assets/icons/search.svg"></li>
+                        <li><img id="header-profile-2" class="header-profile-picture cursor-pointer" src="assets/images/aluno.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="modal-container modal-notification hidden"><div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam laboriosam sed enim pariatur est aperiam odio unde corrupti minus temporibus deleniti perferendis beatae, repellat quis optio nostrum ratione doloribus exercitationem!</div></div>
+                <div class="modal-container modal-message hidden"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum odit molestias, id quisquam aliquid velit sequi perspiciatis laboriosam totam culpa maxime blanditiis consectetur accusamus soluta adipisci ut eos odio? Ducimus?</div></div>
+                <div class="modal-container modal-profile hidden"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quis soluta. Tempora, nobis nemo aliquam cum dignissimos unde adipisci velit at blanditiis qui maxime mollitia sed libero non fuga dicta!/div></div>
+                <div class="modal-container modal-search"><div>4</div></div>
+            </nav>
+            <!--nav-search-container-->
+            <nav class="center full-screen nav-search-container hidden">
+                <ul class="nav-search-content flex-row space-between gap-8">
+                    <li id="close-header-search-2" class="close-search-container"><img class="icon icon-color-white cursor-pointer" src="assets/icons/menu-left.svg" alt=""></li>
+                    <li class="flex-row row-reverse align-items gap-8 input-container"><img class="icon icon-color-gray cursor-pointer" src="assets/icons/search.svg" alt=""><input class="input-style" type="search"></li>
+                </ul>
+                <div class="center full-screen mobile-modal-search hidden">
+                    <ul class="flex-column gap-8">
+                        <li class="cursor-pointer">list-result--1</li>
+                        <li class="cursor-pointer">list-result--2</li>
+                        <li class="cursor-pointer">list-result--3</li>
+                        <li class="cursor-pointer">list-result--4</li>
+                    </ul>
+                </div>
+            </nav>
+            <!--// nav-search-container(END)-->
+        </header>
+        <!-- // header-container-->
+        <!-- ===================================== hero-container ===================================== -->
+        <section class="container hero-container">
+        <div class="center full-screen hero-center">
+            <!--hero-details-->
+            <div class="hero-details flex-column">
+                <div class="hero-details-top flex-column gap-16 justify-center">
+                    <h3>Olá, Seja Bem-vindo de Volta!</h3>
+                    <ul class="hero-list flex-row align-items gap-16">
+                        <li class="flex-row align-items gap-8"><img class="icon icon-color-white" src="assets/icons/clock.svg" alt=""><p>12:33</p></li>
+                        <li class="flex-row align-items gap-8"><img class="icon icon-color-white" src="assets/icons/calendar.svg" alt=""><p>7 de Novembro, 2023</p></li>
+                    </ul>
+                </div>
+                <div class="hero-details-bottom flex-column gap-16 justify-center">
+                    <h2>Adilson Sonhi</h2>
+                    <ul class="hero-list flex-row align-items gap-16">
+                        <li class="flex-row align-items gap-8"><img class="icon icon-color-gray" src="assets/icons/university.svg" alt=""><p><strong>Curso:</strong>Engenharia Mecânica</p></li>
+                        <li class="flex-row align-items gap-8"><img class="icon icon-color-gray" src="assets/icons/id-card.svg" alt=""><p><strong>Nº de Matrícula:</strong>V0048225</p></li>
+                    </ul>
+                </div>
+            </div>
+            <!--profile-hero-container-->
+            <div><img class="profile-hero-container transition" src="assets/images/aluno.png" alt=""></div>
+        </div>
+        </section>
+        <!-- ===================================== main-container ===================================== -->
+        <main class="container main-container">
+            <div class="center full-screen main-center flex-row gap-24">
+                <nav class="filter-box-container flex-column gap-32">
+                    <div class="filter-list-container flex-column gap-12">
+                        <div class="filter-header flex-row gap-8 align-items"><img class="icon icon-color-gray" src="assets/icons/resources.svg" alt=""><h4>Recursos</h4></div>
+                        <ul class="filter-list flex-column gap-12">
+                            <li><a class="flex-row gap-8 align-items" href="#"><img class="icon icon-color-gray" src="assets/icons/user.svg" alt=""><h5>Perfil</h5></a></li>
+                            <li><a class="flex-row gap-8 align-items" href="#"><img class="icon icon-color-gray" src="assets/icons/apply.svg" alt=""><h4>Candidaturas</h4></a></li>
+                            <li><a class="flex-row gap-8 align-items" href="#"><img class="icon icon-color-gray" src="assets/icons/search-2.svg" alt=""><h4>Pesquisa de Notas</h4></a></li>
+                            <li><a class="flex-row gap-8 align-items" href="#"><img class="icon icon-color-gray" src="assets/icons/academy-line.svg" alt=""><h4>Percurso Acadêmico</h4></a></li>
+                            <li><a class="flex-row gap-8 align-items" href="#"><img class="icon icon-color-gray" src="assets/icons/documents.svg" alt=""><h4>Documentos</h4></a></li>
+                            <li><a class="flex-row gap-8 align-items" href="#"><img class="icon icon-color-gray" src="assets/icons/money.svg" alt=""><h4>Emolumentos</h4></a></li>
+                            <li><a class="flex-row gap-8 align-items" href="#"><img class="icon icon-color-gray" src="assets/icons/certificates.svg" alt=""><h4>Certidões</h4></a></li>
+                            <li><a class="flex-row gap-8 align-items" href="#"><img class="icon icon-color-gray" src="assets/icons/tests.svg" alt=""><h4>Exames</h4></a></li>
+                            <li><a class="flex-row gap-8 align-items" href="#"><img class="icon icon-color-gray" src="assets/icons/schedules.svg" alt=""><h4>Horários</h4></a></li>
+                            <li><a class="flex-row gap-8 align-items" href="#"><img class="icon icon-color-gray" src="assets/icons/chat.svg" alt=""><h4>Reclamações</h4></a></li>
+                        </ul>
+                    </div>
+                    <div class="filter-list-container flex-column gap-12">
+                        <div class="filter-header flex-row gap-8 align-items"><img class="icon icon-color-gray" src="assets/icons/more.svg" alt=""><h4>Outros</h4></div>
+                        <ul class="filter-list flex-column gap-12">
+                            <li><a class="flex-row gap-8 align-items" href="#"><img class="icon icon-color-gray" src="assets/icons/message.svg" alt=""><h4>Mensagem</h4></a></li>
+                            <li><a class="flex-row gap-8 align-items" href="#"><img class="icon icon-color-gray" src="assets/icons/help.svg" alt=""><h4>Ajuda</h4></a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="grid-container">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                </div>
+            </div>
+        </main>
+        <!-- ===================================== footer-container ===================================== -->
+        <footer class="container footer-container">
+            <div class="center full-screen footer-center flex-row space-between align-items">
+                <p class="footer-description">Direitos reservados &copy;2023 Universidade Jean Piaget, Designed by Adilson_Darwin</p>
+                <ul class="footer-list flex-row align-items gap-8">
+                    <li><a href=""><img class="icon icon-color-gray" src="assets/icons/facebook.svg" alt=""></a></li>
+                    <li><a href=""><img class="icon icon-color-gray" src="assets/icons/linkedin.svg" alt=""></a></li>
+                    <li><a href=""><img class="icon icon-color-gray" src="assets/icons/instagram.svg" alt=""></a></li>
+                    <li><a href=""><img class="icon icon-color-gray" src="assets/icons/whatsapp.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- ===================================== others-container ===================================== -->
+    </div>
+</body>
+</html>
